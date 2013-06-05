@@ -1,0 +1,11 @@
+
+calculadoracatalogo:
+    resource: "@CalculadoracatalogoBundle/Controller/"
+    type:     annotation
+    prefix:   /catalogo
+
+calculadora_calculadora:
+    resource: "@CalculadoraCalculadoraBundle/Controller/"
+    type:     annotation
+    prefix:   /calculadora
+

@@ -1,0 +1,10 @@
+{% extends "::base.html.twig" %}
+{% block title%}Layout Bundle{% endblock %}
+{% block body %}
+<div class="cabecera">
+    {% render url ("header",{'var':'mi variable'}) %}
+    <h1>Cabecera</h1>
+</div>
+{% block contenido %}{% endblock %}
+{% include ("CalculadoraCalculadoraBundle::pie.html.twig ")%}
+{% endblock %}
