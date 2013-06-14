@@ -1,0 +1,12 @@
+{% extends "::base.html.twig"%}
+{% block stylesheets %}
+{% block body%}
+{% for producto in productos %}
+<lu>
+    <li>
+{{ producto.nombre }}
+    </li>
+</lu>
+{% endfor %}
+{% endblock %}
+{% endblock %}
